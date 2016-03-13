@@ -11,7 +11,7 @@ Mac OS X, GNU/Linux or Microsoft Windows following the
 Retrieve the
 [machine-learning-toolbox](https://github.com/gdhorne/data-scientists-toolbox)
 build repository to create the container. Git, GraphLab, Jupyter, and
-Python  are installed as part of the image.
+Python are installed as part of the image.
 
 	$ git clone https://github.com/gdhorne/machine-learning-toolbox
 
@@ -80,3 +80,17 @@ Python, and vim. For convenience the terminal/console management utility
 Press ENTER if the container's shell prompt does not appear. To exit the 
 container and leave it running press CTRL+P, CTRL+Q; this is the preferred 
 method. To exit the container and stop it type 'exit'.
+
+The [GraphLab Create](https://dato.com/products/create/) package available for
+Python requires either an academic licence or a commercial licence. Participants
+in the [Unversity of Washington](http://www.washington.edu)
+[Machine Learning Specialization](https://www.coursera.org/specializations/machine-learning)
+delivered on the [Coursera](https://www.coursera.org) platform qualify for an
+academic licence subject to verification by [Dato](https://dato.com). Register
+and await an automated email containing a product licence key. Access the
+command line via WeTTY as indicated above. Installation of GraphLab Create can
+be initiated as shown.
+
+	$ ./bin/graphlab.sh EMAIL_ADDRESS LICENCE_KEY
+
+Replace EMAIL_ADDRESS and LICENCE_KEY with the credentials sent to you via email.
