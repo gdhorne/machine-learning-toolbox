@@ -13,4 +13,5 @@ then
 fi
 
 sudo pip install https://get.dato.com/GraphLab-Create/1.8.4/${EMAIL_ADDRESS}/${LICENCE_KEY}/GraphLab-Create-License.tar.gz
+sudo chown -R ${USER}:${USER} ${HOME}/.graphlab
 sudo deluser ${USER} sudo
