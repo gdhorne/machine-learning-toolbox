@@ -9,7 +9,7 @@ Mac OS X, GNU/Linux or Microsoft Windows following the
 [instructions](http://docs.docker.com/linux/started/) at the website.
 
 Retrieve the
-[machine-learning-toolbox](https://github.com/gdhorne/data-scientists-toolbox)
+[machine-learning-toolbox](https://github.com/gdhorne/machine-learning-toolbox)
 build repository to create the container. Git, GraphLab, Jupyter, and
 Python are installed as part of the image.
 
